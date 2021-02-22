@@ -26,14 +26,33 @@ header h2 {
     color: white
 }
 
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#click{
+    width: 500px;
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+
 main {
     background-color: #fffff2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 article{
     border: 4px solid #050401;
     width: 700px;
-    margin: 0 auto;
+    margin: 5px;
     overflow: hidden;
     box-shadow: 3px 3px 0 0 #e4572e;
     padding: 2px;
